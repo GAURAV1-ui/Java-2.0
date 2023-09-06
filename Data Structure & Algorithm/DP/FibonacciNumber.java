@@ -11,6 +11,9 @@ public class FibonacciNumber {
     }
 
     public static int solve(int n) {
+        
+        //for base case think about lowest value outcome
+
         if(n == 0) return 0;
         if(n ==1 ) return 1;
 
